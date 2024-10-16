@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-top: 20px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang di Blog GO</h1>
+    <p>Makan ayam makan sapi yuk hepi hepi</p>
+</header>
+
+<section>
+    <h2>Artikel Terbaru</h2>
+    <p>Sedih? Yuk denegr lagu.</p>
+
+    <h3>Video: Sampai Akhir Waktu Nanti Guitar</h3>
+    <video width="600" controls>
+        <source src="Ayam.mp4" type="video/mp4">
+        Video tidak dapat diputar, silakan coba di browser lain.
+    </video>
+
+    <h3>Audio: Sampai Akhir Waktu Nanti</h3>
+    <audio controls>
+        <source src="Goreng.mp3" type="audio/mpeg">
+        Audio tidak dapat diputar, silakan coba di browser lain.
+    </audio>
+
+    <h2>Komentar</h2>
+    <form action="#" method="post">
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="comment">Komentar:</label><br>
+        <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+        <input type="submit" value="Kirim">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; Hai aku sayang kamu</p>
+</footer>
+
+</body>
+</html>
